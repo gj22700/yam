@@ -1,0 +1,67 @@
+	tr:nth-child(even) {background-color: #f2f2f2;}
+	tr:nth-child(odd) {background-color: #ccc;}
+    th {      padding-right: 10px;
+      padding-left: 10px;}
+	th input { width:5rem; /* 70px */ }
+    h1 {
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif, "Malgun Gothic";
+	font-style: italic;
+	font-weight: bold;
+	
+    }
+	#titre {background: linear-gradient(to left, #666,#eee 50%, #666 100%);}
+    td {
+
+      text-align:center;
+      padding-right: 10px;
+      padding-left: 10px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+	  font-size:1rem /* 1 em */;
+    }
+    .droite {
+      text-align:right;
+	  font-weight: 800;
+	  font-size: 1.5em;
+    }
+    input {
+      width: 50px;
+      text-align: center;
+	  border:0;
+	  font-size: 1em;
+      }
+	 body {
+		margin-top:20px;
+		font-size: 1em;
+		background: linear-gradient(to left, #666,#eee 50%, #666 100%);
+		}
+	#tableau {
+		font-size: 1em;
+		
+		margin-left:auto;
+		margin-right:auto;
+		
+		}	
+	.gris {
+		background-color: yellow; 
+		opacity: .5;
+	}
+	.rouge {
+		background-color: red; 
+		}
+	.gauche {
+		text-align: left;
+		font-weight: bold;
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif, "Malgun Gothic";
+	}
+	.total {
+		font-size:2em
+	}
+	.sousTotal {
+		font-size:1.5em
+	}
+	@viewport {
+   width: device-width; /* largeur du viewport */
+   zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
+}
